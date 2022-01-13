@@ -1,0 +1,197 @@
+/*desafio1*/
+body {
+    margin: 0;
+    padding: 0;
+    }
+    .main {
+    margin: 5px;
+    }
+    .box {
+    border: 2px solid #808080;
+    width: 25%;
+    padding: 5px;
+    box-sizing: border-box;
+    float: left;
+    text-align: center;
+    min-height: 349px;
+    }
+   
+    .navbar{ 
+        background-color: green;
+        width: 100%;
+        position: fixed;
+        top: 0;
+        height: 65px;
+    
+    }
+    .text{
+        margin-top: 65px;
+    }
+     /*desafio2*/
+     html, body {
+        margin: 0;
+        padding: 0;
+        }
+        .square {
+        height: 200px;
+        width: 200px;
+        position: relative;
+        }
+        .square__red {
+        background-color: rgba(255, 0, 0, .5);
+        z-index: 1;
+        }
+        .square__green {
+        background-color: rgba(0, 255, 0, .5);
+        left: 25px;
+        position: absolute;
+        top: 25px;
+        z-index: 0;
+        }
+        .square__blue {
+        background-color: rgba(0, 0, 255, .5);
+        left: 50px;
+        position: absolute;
+        top: 50px;
+        z-index: -1;
+        }
+
+        /* desafio3*/
+        .bandera{
+            height: 300px;
+            width: 500px;
+            margin: 20px;
+            position: relative;
+            border: 1px solid black;
+
+        }
+        .color1{
+            background-color: red;
+            width: 100%;
+            height: 30%;
+        }
+        .color2{
+            background-color:yellow;
+            width: 100%;
+            height: 40%;
+        }
+        .cuadrado1{
+            width: 150px;
+            height: 140px;
+            top: 0;
+            left: 0;
+            background-color: red;
+            position: absolute;
+        }
+        .cuadrado2{
+            width: 150px;
+            height: 140px;
+            bottom: 0;
+            left: 0;
+            background-color: red;
+            position: absolute;
+        }
+        .rectangulo1{
+            width: 320px;
+            height: 140px;
+            top: 0;
+            right: 0;
+            background-color: red;
+            position: absolute;
+        }
+        .rectangulo2{
+            width: 320px;
+            height: 140px;
+            bottom: 0;
+            right: 0;
+            background-color: red;
+            position: absolute;
+        }
+        .verde{
+            width: 500px;
+            height: 100px;
+            top: 0;
+            right: 0;
+            background-color: green;
+            position: absolute;
+        }
+        .negro{
+            width: 500px;
+            height: 100px;
+            bottom: 0;
+            right: 0;
+            background-color: black;
+            position: absolute;
+        }
+        .rojo{
+            width: 150px;
+            height: 300px;
+            
+            left: 0;
+            background-color: red;
+            position: absolute;
+        }
+        .circulo{
+            width: 150px;
+            height: 150px;
+            border-radius: 50%;
+            background-color: red;
+            margin-top: 75px !important;
+            margin: auto;
+        
+        }
+        /*desafio4*/
+        html, body {
+            margin: 0;
+            padding: 0;
+            }
+            .main-ejercicio4 {
+            background-color: #B0CCAB;
+            padding: 50px;
+            position: relative;
+            height: 150px;
+            
+            }
+            .main__paragraph {
+            left: 100px;
+            position: absolute;
+
+            }
+            /*desafio5*/
+            .oferta{
+                position: relative;
+                width: 292px;
+                height: 291px;
+            }
+            .oferta .camara{
+                position: static;
+                z-index: 0;
+
+            } 
+            .oferta .ribbon{
+                position: absolute;
+                z-index: 1;
+                top: 35px;
+                left: 21px;
+                width: 243px;
+            }
+            /*desafio6*/
+            .contenido{
+                border: 1px solid grey;
+                border-radius: 4px;
+                position: relative;
+                display: inline-block;
+            }
+            .img2{
+                position: absolute;
+                bottom: 0px;
+                right: 0px;
+            }
+            /*desafio7*/
+            .siteday{
+                position: fixed;
+                right: 0px;
+                top: 0px;
+            }
+
+            
